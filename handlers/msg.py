@@ -15,7 +15,7 @@ async def check_sub(user_id):
 async def welcome(message: Message):
     await message.answer('Добро пожаловать!\n'  
                          'Текст\n'  
-                         'Текст', reply_markup=await menu())
+                         '⬇️ Воспользуйся кнопками: ⬇️', reply_markup=await menu())
 
 
 async def menu_check(message: Message):
