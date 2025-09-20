@@ -1,1 +1,1 @@
-from .config import dp
+from .config import dp, bot
